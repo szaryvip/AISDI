@@ -1,0 +1,1588 @@
+{
+    "machine_info": {
+        "node": "DESKTOP-388V9AO",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.8.5",
+        "python_version": "3.8.5",
+        "python_build": [
+            "default",
+            "Jul 28 2020 12:59:40"
+        ],
+        "release": "4.19.128-microsoft-standard",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "aabb9e8c0fdffda0217cb1c36fd790406461f263",
+        "time": "2021-04-13T12:33:11+02:00",
+        "author_time": "2021-04-13T12:33:11+02:00",
+        "dirty": true,
+        "project": "aisdi_lab",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[100]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00026630000002114684,
+                "max": 0.000973299999941446,
+                "mean": 0.00034637209928315603,
+                "stddev": 6.871041637189632e-05,
+                "rounds": 3344,
+                "median": 0.0003283500000179629,
+                "iqr": 6.214999984877068e-05,
+                "q1": 0.00030480000009447394,
+                "q3": 0.0003669499999432446,
+                "iqr_outliers": 153,
+                "stddev_outliers": 421,
+                "outliers": "421;153",
+                "ld15iqr": 0.00026630000002114684,
+                "hd15iqr": 0.00046069999984865717,
+                "ops": 2887.06856605823,
+                "total": 1.1582683000028737,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[1000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0048840000001746375,
+                "max": 0.02283129999977973,
+                "mean": 0.005736583606544801,
+                "stddev": 0.002318809287722044,
+                "rounds": 183,
+                "median": 0.00526939999986098,
+                "iqr": 0.0006182749999084081,
+                "q1": 0.005120325000007142,
+                "q3": 0.00573859999991555,
+                "iqr_outliers": 5,
+                "stddev_outliers": 4,
+                "outliers": "4;5",
+                "ld15iqr": 0.0048840000001746375,
+                "hd15iqr": 0.0068602999999711756,
+                "ops": 174.3197813519377,
+                "total": 1.0497947999976986,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[2000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0112271000000419,
+                "max": 0.03032230000007985,
+                "mean": 0.012987568750011747,
+                "stddev": 0.003777808427533089,
+                "rounds": 80,
+                "median": 0.012136749999967833,
+                "iqr": 0.000631750000025022,
+                "q1": 0.011849449999999706,
+                "q3": 0.012481200000024728,
+                "iqr_outliers": 4,
+                "stddev_outliers": 4,
+                "outliers": "4;4",
+                "ld15iqr": 0.0112271000000419,
+                "hd15iqr": 0.027677699999912875,
+                "ops": 76.99670502218481,
+                "total": 1.0390055000009397,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[4000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.026018699999895034,
+                "max": 0.052438500000107524,
+                "mean": 0.028926056756763747,
+                "stddev": 0.006676171650724437,
+                "rounds": 37,
+                "median": 0.026966599999923346,
+                "iqr": 0.0014229749999685737,
+                "q1": 0.02632767500006139,
+                "q3": 0.027750650000029964,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.026018699999895034,
+                "hd15iqr": 0.04879870000013398,
+                "ops": 34.570906377212,
+                "total": 1.0702641000002586,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[6000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03998550000005707,
+                "max": 0.06590459999983977,
+                "mean": 0.044360004166624854,
+                "stddev": 0.008085551951171712,
+                "rounds": 24,
+                "median": 0.04133434999994279,
+                "iqr": 0.0015786000000161948,
+                "q1": 0.04078479999998308,
+                "q3": 0.042363399999999274,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.03998550000005707,
+                "hd15iqr": 0.06478050000009716,
+                "ops": 22.5428292622292,
+                "total": 1.0646400999989964,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[8000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.05624030000012681,
+                "max": 0.08460620000005292,
+                "mean": 0.0610946307692407,
+                "stddev": 0.009342797903074624,
+                "rounds": 13,
+                "median": 0.05764780000004066,
+                "iqr": 0.0013068750000684304,
+                "q1": 0.05681644999992841,
+                "q3": 0.05812332499999684,
+                "iqr_outliers": 2,
+                "stddev_outliers": 2,
+                "outliers": "2;2",
+                "ld15iqr": 0.05624030000012681,
+                "hd15iqr": 0.07927990000007412,
+                "ops": 16.368050472014144,
+                "total": 0.7942302000001291,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_inserting[10000]",
+            "fullname": "src/test_trees.py::test_bst_tree_inserting[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0731924000001527,
+                "max": 0.10479899999995723,
+                "mean": 0.0810853500000316,
+                "stddev": 0.01136150403027118,
+                "rounds": 14,
+                "median": 0.07606539999994766,
+                "iqr": 0.002803399999947942,
+                "q1": 0.07491320000008272,
+                "q3": 0.07771660000003067,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.0731924000001527,
+                "hd15iqr": 0.09959090000006654,
+                "ops": 12.332684017515005,
+                "total": 1.1351949000004424,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[100]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.009970599999860497,
+                "max": 0.036917399999992995,
+                "mean": 0.011009958426957076,
+                "stddev": 0.002972849837308982,
+                "rounds": 89,
+                "median": 0.01053460000002815,
+                "iqr": 0.00045602500000541113,
+                "q1": 0.01031767500001024,
+                "q3": 0.010773700000015651,
+                "iqr_outliers": 5,
+                "stddev_outliers": 2,
+                "outliers": "2;5",
+                "ld15iqr": 0.009970599999860497,
+                "hd15iqr": 0.011775500000112515,
+                "ops": 90.82686430055661,
+                "total": 0.9798862999991798,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[1000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.1118367999999919,
+                "max": 1.2691207000000304,
+                "mean": 1.1689438000000336,
+                "stddev": 0.06327644009717777,
+                "rounds": 5,
+                "median": 1.1361970000000383,
+                "iqr": 0.08165944999979047,
+                "q1": 1.129626650000148,
+                "q3": 1.2112860999999384,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 1.1118367999999919,
+                "hd15iqr": 1.2691207000000304,
+                "ops": 0.8554731202646109,
+                "total": 5.844719000000168,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[2000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 5.0672426000001,
+                "max": 5.328229299999975,
+                "mean": 5.172082839999985,
+                "stddev": 0.11941156168522844,
+                "rounds": 5,
+                "median": 5.124921099999938,
+                "iqr": 0.21309552499985784,
+                "q1": 5.070394175000047,
+                "q3": 5.283489699999905,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 5.0672426000001,
+                "hd15iqr": 5.328229299999975,
+                "ops": 0.19334570441644414,
+                "total": 25.860414199999923,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[4000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 19.72175010000001,
+                "max": 22.753165900000113,
+                "mean": 21.64284435999998,
+                "stddev": 1.2734955663669427,
+                "rounds": 5,
+                "median": 22.29659649999985,
+                "iqr": 1.882367424999984,
+                "q1": 20.659196774999998,
+                "q3": 22.541564199999982,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 19.72175010000001,
+                "hd15iqr": 22.753165900000113,
+                "ops": 0.046204647751761634,
+                "total": 108.2142217999999,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[6000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 46.631624299999885,
+                "max": 47.19903399999998,
+                "mean": 46.78931631999994,
+                "stddev": 0.23225636709226863,
+                "rounds": 5,
+                "median": 46.72191120000002,
+                "iqr": 0.1822537999999554,
+                "q1": 46.66045992499994,
+                "q3": 46.842713724999896,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 46.631624299999885,
+                "hd15iqr": 47.19903399999998,
+                "ops": 0.02137240033944572,
+                "total": 233.94658159999972,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[8000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 89.01258979999989,
+                "max": 127.56609580000031,
+                "mean": 105.75369598000002,
+                "stddev": 18.9304600682208,
+                "rounds": 5,
+                "median": 98.5699141,
+                "iqr": 36.1244398999998,
+                "q1": 89.11757082500009,
+                "q3": 125.24201072499989,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 89.01258979999989,
+                "hd15iqr": 127.56609580000031,
+                "ops": 0.009455934288945499,
+                "total": 528.7684799000001,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_inserting[10000]",
+            "fullname": "src/test_trees.py::test_avl_tree_inserting[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 141.2285936000003,
+                "max": 154.22385810000014,
+                "mean": 147.86343036000008,
+                "stddev": 5.854715419400136,
+                "rounds": 5,
+                "median": 150.86964149999994,
+                "iqr": 9.945773874999759,
+                "q1": 141.83181650000017,
+                "q3": 151.77759037499993,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 141.2285936000003,
+                "hd15iqr": 154.22385810000014,
+                "ops": 0.00676299743327556,
+                "total": 739.3171518000004,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[100]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00022269999999480206,
+                "max": 0.0006143999999039806,
+                "mean": 0.0002369066024236796,
+                "stddev": 2.4029834244610116e-05,
+                "rounds": 2802,
+                "median": 0.00023289999990083743,
+                "iqr": 8.599999546277104e-06,
+                "q1": 0.00022920000037629507,
+                "q3": 0.00023779999992257217,
+                "iqr_outliers": 198,
+                "stddev_outliers": 139,
+                "outliers": "139;198",
+                "ld15iqr": 0.00022269999999480206,
+                "hd15iqr": 0.00025080000023081084,
+                "ops": 4221.072734020378,
+                "total": 0.6638122999911502,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[1000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.003923199999917415,
+                "max": 0.00476810000009209,
+                "mean": 0.004135353023268054,
+                "stddev": 0.00015435590314594825,
+                "rounds": 215,
+                "median": 0.004083699999682722,
+                "iqr": 0.00015749999988656782,
+                "q1": 0.004039800000100513,
+                "q3": 0.004197299999987081,
+                "iqr_outliers": 15,
+                "stddev_outliers": 48,
+                "outliers": "48;15",
+                "ld15iqr": 0.003923199999917415,
+                "hd15iqr": 0.004439899999852059,
+                "ops": 241.8173235449021,
+                "total": 0.8891009000026315,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[2000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.008985500000108004,
+                "max": 0.009960499999579042,
+                "mean": 0.009232323913035701,
+                "stddev": 0.000148114521554291,
+                "rounds": 92,
+                "median": 0.009219749999829219,
+                "iqr": 0.0001221500001520326,
+                "q1": 0.009145199999920806,
+                "q3": 0.009267350000072838,
+                "iqr_outliers": 5,
+                "stddev_outliers": 18,
+                "outliers": "18;5",
+                "ld15iqr": 0.008985500000108004,
+                "hd15iqr": 0.009473099999922852,
+                "ops": 108.31509048204394,
+                "total": 0.8493737999992845,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[4000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.02014690000032715,
+                "max": 0.021593899999970745,
+                "mean": 0.02057490232561767,
+                "stddev": 0.0002569524566898017,
+                "rounds": 43,
+                "median": 0.020510400000148366,
+                "iqr": 0.00019242499990923534,
+                "q1": 0.020467550000034862,
+                "q3": 0.020659974999944097,
+                "iqr_outliers": 6,
+                "stddev_outliers": 9,
+                "outliers": "9;6",
+                "ld15iqr": 0.02031810000016776,
+                "hd15iqr": 0.020971500000086962,
+                "ops": 48.602903876481925,
+                "total": 0.8847208000015598,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[6000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.032359400000132155,
+                "max": 0.0357080999997379,
+                "mean": 0.03282541724139923,
+                "stddev": 0.0005752258189916094,
+                "rounds": 29,
+                "median": 0.032711100000142324,
+                "iqr": 0.00025800000003073364,
+                "q1": 0.03260560000001078,
+                "q3": 0.032863600000041515,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.032359400000132155,
+                "hd15iqr": 0.0357080999997379,
+                "ops": 30.46419768699256,
+                "total": 0.9519371000005776,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[8000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.04475959999990664,
+                "max": 0.046858700000029785,
+                "mean": 0.04545984285719636,
+                "stddev": 0.00048059705322131124,
+                "rounds": 21,
+                "median": 0.04538800000000265,
+                "iqr": 0.0005165249998526633,
+                "q1": 0.045192175000124735,
+                "q3": 0.0457086999999774,
+                "iqr_outliers": 1,
+                "stddev_outliers": 5,
+                "outliers": "5;1",
+                "ld15iqr": 0.04475959999990664,
+                "hd15iqr": 0.046858700000029785,
+                "ops": 21.99743635589137,
+                "total": 0.9546567000011237,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_finding[10000]",
+            "fullname": "src/test_trees.py::test_bst_tree_finding[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.05766490000041813,
+                "max": 0.06104990000039834,
+                "mean": 0.058427217647155937,
+                "stddev": 0.0008303888624588497,
+                "rounds": 17,
+                "median": 0.05813860000034765,
+                "iqr": 0.0005632000001014603,
+                "q1": 0.057929249999915555,
+                "q3": 0.058492450000017016,
+                "iqr_outliers": 2,
+                "stddev_outliers": 2,
+                "outliers": "2;2",
+                "ld15iqr": 0.05766490000041813,
+                "hd15iqr": 0.059711500000048545,
+                "ops": 17.115310984668753,
+                "total": 0.993262700001651,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[100]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0001975000000129512,
+                "max": 0.0004687999999077874,
+                "mean": 0.0002088406461301489,
+                "stddev": 1.796039182832827e-05,
+                "rounds": 3993,
+                "median": 0.000204800000119576,
+                "iqr": 4.800000169780105e-06,
+                "q1": 0.00020419999964360613,
+                "q3": 0.00020899999981338624,
+                "iqr_outliers": 427,
+                "stddev_outliers": 200,
+                "outliers": "200;427",
+                "ld15iqr": 0.0001975000000129512,
+                "hd15iqr": 0.00021629999992001103,
+                "ops": 4788.339906671246,
+                "total": 0.8339006999976846,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[1000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.002602500000193686,
+                "max": 0.003676099999665894,
+                "mean": 0.0027331153846031878,
+                "stddev": 9.411711740041821e-05,
+                "rounds": 312,
+                "median": 0.0027102000001377746,
+                "iqr": 7.020000020929729e-05,
+                "q1": 0.0026871999998547835,
+                "q3": 0.002757400000064081,
+                "iqr_outliers": 16,
+                "stddev_outliers": 34,
+                "outliers": "34;16",
+                "ld15iqr": 0.002602500000193686,
+                "hd15iqr": 0.002865799999653973,
+                "ops": 365.882833060554,
+                "total": 0.8527319999961946,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[2000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.005556799999794748,
+                "max": 0.007157600000027742,
+                "mean": 0.005759839855081605,
+                "stddev": 0.00015222950525401266,
+                "rounds": 138,
+                "median": 0.005733250000048429,
+                "iqr": 0.00012280000009923242,
+                "q1": 0.00568810000004305,
+                "q3": 0.005810900000142283,
+                "iqr_outliers": 2,
+                "stddev_outliers": 13,
+                "outliers": "13;2",
+                "ld15iqr": 0.005556799999794748,
+                "hd15iqr": 0.006182000000080734,
+                "ops": 173.61593814413996,
+                "total": 0.7948579000012614,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[4000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01188270000011471,
+                "max": 0.01322859999982029,
+                "mean": 0.012239797058822766,
+                "stddev": 0.00024278721653965332,
+                "rounds": 68,
+                "median": 0.012192800000093484,
+                "iqr": 0.000252750000299784,
+                "q1": 0.012086349999890444,
+                "q3": 0.012339100000190228,
+                "iqr_outliers": 3,
+                "stddev_outliers": 14,
+                "outliers": "14;3",
+                "ld15iqr": 0.01188270000011471,
+                "hd15iqr": 0.012837599999784288,
+                "ops": 81.70070101604942,
+                "total": 0.8323061999999481,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[6000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.018605399999614747,
+                "max": 0.020438300000023446,
+                "mean": 0.018907330434785763,
+                "stddev": 0.0003027898338757501,
+                "rounds": 46,
+                "median": 0.018806799999993018,
+                "iqr": 0.0002944999996543629,
+                "q1": 0.01874420000012833,
+                "q3": 0.019038699999782693,
+                "iqr_outliers": 1,
+                "stddev_outliers": 5,
+                "outliers": "5;1",
+                "ld15iqr": 0.018605399999614747,
+                "hd15iqr": 0.020438300000023446,
+                "ops": 52.88953950686751,
+                "total": 0.8697372000001451,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[8000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025129999999990105,
+                "max": 0.02693879999969795,
+                "mean": 0.02567499729726429,
+                "stddev": 0.00031081293357326366,
+                "rounds": 37,
+                "median": 0.02564570000004096,
+                "iqr": 0.00019792500017956627,
+                "q1": 0.02553180000006705,
+                "q3": 0.025729725000246617,
+                "iqr_outliers": 4,
+                "stddev_outliers": 6,
+                "outliers": "6;4",
+                "ld15iqr": 0.02533979999998337,
+                "hd15iqr": 0.026267599999755475,
+                "ops": 38.9483974787624,
+                "total": 0.9499748999987787,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_finding[10000]",
+            "fullname": "src/test_trees.py::test_avl_tree_finding[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0320544000001064,
+                "max": 0.0337229000001571,
+                "mean": 0.032824589285772685,
+                "stddev": 0.000407737700128356,
+                "rounds": 28,
+                "median": 0.0327569000000949,
+                "iqr": 0.0003163499998208863,
+                "q1": 0.03258625000034954,
+                "q3": 0.03290260000017042,
+                "iqr_outliers": 4,
+                "stddev_outliers": 7,
+                "outliers": "7;4",
+                "ld15iqr": 0.03226020000010976,
+                "hd15iqr": 0.03369059999977253,
+                "ops": 30.46496610495092,
+                "total": 0.9190885000016351,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[100]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00011610000001383014,
+                "max": 0.00038829999994050013,
+                "mean": 0.00012416043329520828,
+                "stddev": 1.4283609720707763e-05,
+                "rounds": 4385,
+                "median": 0.00012149999975008541,
+                "iqr": 2.8999997994105797e-06,
+                "q1": 0.00012100000003556488,
+                "q3": 0.00012389999983497546,
+                "iqr_outliers": 715,
+                "stddev_outliers": 168,
+                "outliers": "168;715",
+                "ld15iqr": 0.0001166999995803053,
+                "hd15iqr": 0.00012829999968744232,
+                "ops": 8054.0956040509645,
+                "total": 0.5444434999994883,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[1000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0011872000000039407,
+                "max": 0.0017478999998274958,
+                "mean": 0.0012625257943892673,
+                "stddev": 5.680790753266708e-05,
+                "rounds": 535,
+                "median": 0.0012510999999904016,
+                "iqr": 3.467499993803358e-05,
+                "q1": 0.0012376000000813292,
+                "q3": 0.0012722750000193628,
+                "iqr_outliers": 37,
+                "stddev_outliers": 74,
+                "outliers": "74;37",
+                "ld15iqr": 0.0011872000000039407,
+                "hd15iqr": 0.0013245999998616753,
+                "ops": 792.0630251231728,
+                "total": 0.675451299998258,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[2000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.002381000000241329,
+                "max": 0.003055600000152481,
+                "mean": 0.0025102157608945736,
+                "stddev": 9.500542232795779e-05,
+                "rounds": 368,
+                "median": 0.0024839000000156375,
+                "iqr": 6.69499997911771e-05,
+                "q1": 0.0024650000000292493,
+                "q3": 0.0025319499998204265,
+                "iqr_outliers": 37,
+                "stddev_outliers": 69,
+                "outliers": "69;37",
+                "ld15iqr": 0.002381000000241329,
+                "hd15iqr": 0.0026326000001972716,
+                "ops": 398.37213022821066,
+                "total": 0.9237594000092031,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[4000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.005270000000109576,
+                "max": 0.007524300000113726,
+                "mean": 0.005547187974671724,
+                "stddev": 0.00022211550916954233,
+                "rounds": 158,
+                "median": 0.005499750000126369,
+                "iqr": 0.00017449999995733378,
+                "q1": 0.005428800000117917,
+                "q3": 0.005603300000075251,
+                "iqr_outliers": 6,
+                "stddev_outliers": 20,
+                "outliers": "20;6",
+                "ld15iqr": 0.005270000000109576,
+                "hd15iqr": 0.005952099999831262,
+                "ops": 180.27151857228688,
+                "total": 0.8764556999981323,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[6000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.008294299999761279,
+                "max": 0.009095299999898998,
+                "mean": 0.008577730303014423,
+                "stddev": 0.00015502713813006657,
+                "rounds": 99,
+                "median": 0.008555800000067393,
+                "iqr": 0.00020822499993755628,
+                "q1": 0.008460925000008501,
+                "q3": 0.008669149999946058,
+                "iqr_outliers": 1,
+                "stddev_outliers": 28,
+                "outliers": "28;1",
+                "ld15iqr": 0.008294299999761279,
+                "hd15iqr": 0.009095299999898998,
+                "ops": 116.58095611243172,
+                "total": 0.8491952999984278,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[8000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0072427000000061525,
+                "max": 0.008439799999905517,
+                "mean": 0.007398963291150353,
+                "stddev": 0.0001545859583131005,
+                "rounds": 79,
+                "median": 0.007360200000221084,
+                "iqr": 0.00011422500017488346,
+                "q1": 0.007319875000007414,
+                "q3": 0.007434100000182298,
+                "iqr_outliers": 3,
+                "stddev_outliers": 8,
+                "outliers": "8;3",
+                "ld15iqr": 0.0072427000000061525,
+                "hd15iqr": 0.007715600000210543,
+                "ops": 135.15406965136125,
+                "total": 0.5845181000008779,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_bst_tree_deleting[10000]",
+            "fullname": "src/test_trees.py::test_bst_tree_deleting[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.013652599999659287,
+                "max": 0.014785500000016327,
+                "mean": 0.01387097920789781,
+                "stddev": 0.00018503626690274057,
+                "rounds": 101,
+                "median": 0.013825800000176969,
+                "iqr": 0.00015799999982846202,
+                "q1": 0.013758374999838452,
+                "q3": 0.013916374999666914,
+                "iqr_outliers": 8,
+                "stddev_outliers": 12,
+                "outliers": "12;8",
+                "ld15iqr": 0.013652599999659287,
+                "hd15iqr": 0.014156300000195188,
+                "ops": 72.09296366262473,
+                "total": 1.4009688999976788,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[100]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[100]",
+            "params": {
+                "length": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00036249999993742676,
+                "max": 0.8838186000002679,
+                "mean": 0.23695488000003023,
+                "stddev": 0.3762643050439167,
+                "rounds": 5,
+                "median": 0.048038500000075146,
+                "iqr": 0.40971597500026746,
+                "q1": 0.00037269999984346214,
+                "q3": 0.4100886750001109,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.00036249999993742676,
+                "hd15iqr": 0.8838186000002679,
+                "ops": 4.2202127257302,
+                "total": 1.1847744000001512,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[1000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[1000]",
+            "params": {
+                "length": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.003654999999980646,
+                "max": 6.6209303999999065,
+                "mean": 1.5941385599999194,
+                "stddev": 2.846271703675922,
+                "rounds": 5,
+                "median": 0.2387920999999551,
+                "iqr": 2.479053724999858,
+                "q1": 0.0037895499999649473,
+                "q3": 2.482843274999823,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.003654999999980646,
+                "hd15iqr": 6.6209303999999065,
+                "ops": 0.6272980436531506,
+                "total": 7.970692799999597,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[2000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[2000]",
+            "params": {
+                "length": 2000
+            },
+            "param": "2000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0073373000000174216,
+                "max": 5.223449399999936,
+                "mean": 1.1958347000000686,
+                "stddev": 2.2733482712378295,
+                "rounds": 5,
+                "median": 0.0075188999999227235,
+                "iqr": 1.8485672499999737,
+                "q1": 0.007390175000182353,
+                "q3": 1.855957425000156,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.0073373000000174216,
+                "hd15iqr": 5.223449399999936,
+                "ops": 0.8362359780996008,
+                "total": 5.979173500000343,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[4000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[4000]",
+            "params": {
+                "length": 4000
+            },
+            "param": "4000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01432939999995142,
+                "max": 4.042272299999695,
+                "mean": 0.9238005199999861,
+                "stddev": 1.7542067624683357,
+                "rounds": 5,
+                "median": 0.06726079999998547,
+                "iqr": 1.3567237000002024,
+                "q1": 0.014390899999966678,
+                "q3": 1.371114600000169,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.01432939999995142,
+                "hd15iqr": 4.042272299999695,
+                "ops": 1.082484777124844,
+                "total": 4.619002599999931,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[6000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[6000]",
+            "params": {
+                "length": 6000
+            },
+            "param": "6000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.019836899999972957,
+                "max": 1.3323831000002428,
+                "mean": 0.2863202000002275,
+                "stddev": 0.5848274480001552,
+                "rounds": 5,
+                "median": 0.020072800000434654,
+                "iqr": 0.3427175999999008,
+                "q1": 0.019909275000259186,
+                "q3": 0.36262687500016,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.019836899999972957,
+                "hd15iqr": 1.3323831000002428,
+                "ops": 3.4925932574760896,
+                "total": 1.4316010000011374,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[8000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[8000]",
+            "params": {
+                "length": 8000
+            },
+            "param": "8000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.023833799999920302,
+                "max": 0.2610853999999563,
+                "mean": 0.07354311999988568,
+                "stddev": 0.1049284845539302,
+                "rounds": 5,
+                "median": 0.024475600000187114,
+                "iqr": 0.06677915000000212,
+                "q1": 0.02409562499974527,
+                "q3": 0.09087477499974739,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.023833799999920302,
+                "hd15iqr": 0.2610853999999563,
+                "ops": 13.59746499742674,
+                "total": 0.3677155999994284,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_avl_tree_deleting[10000]",
+            "fullname": "src/test_trees.py::test_avl_tree_deleting[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0015496999999413674,
+                "max": 0.0017026000000441854,
+                "mean": 0.0016359400000510505,
+                "stddev": 7.87555267473542e-05,
+                "rounds": 5,
+                "median": 0.0016872999999577587,
+                "iqr": 0.000143149999871639,
+                "q1": 0.0015500000001793524,
+                "q3": 0.0016931500000509914,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.0015496999999413674,
+                "hd15iqr": 0.0017026000000441854,
+                "ops": 611.269361937965,
+                "total": 0.008179700000255252,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2021-04-13T12:16:27.780858",
+    "version": "3.2.3"
+}

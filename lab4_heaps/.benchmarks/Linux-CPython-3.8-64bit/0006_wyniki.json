@@ -1,0 +1,1588 @@
+{
+    "machine_info": {
+        "node": "DESKTOP-388V9AO",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.8.5",
+        "python_version": "3.8.5",
+        "python_build": [
+            "default",
+            "Jul 28 2020 12:59:40"
+        ],
+        "release": "4.19.128-microsoft-standard",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "f445fa85225774bcc96a98ebace48d3ebc0f3cec",
+        "time": "2021-04-26T20:44:05+02:00",
+        "author_time": "2021-04-26T20:44:05+02:00",
+        "dirty": true,
+        "project": "aisdi_lab",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_dheap_creating[10000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.006270999999998139,
+                "max": 0.007248199999992266,
+                "mean": 0.00650653248407492,
+                "stddev": 0.00016321316532509842,
+                "rounds": 157,
+                "median": 0.006482400000010102,
+                "iqr": 0.00012422499997910563,
+                "q1": 0.006414750000011793,
+                "q3": 0.006538974999990899,
+                "iqr_outliers": 14,
+                "stddev_outliers": 30,
+                "outliers": "30;14",
+                "ld15iqr": 0.006270999999998139,
+                "hd15iqr": 0.006726000000014665,
+                "ops": 153.69169407015988,
+                "total": 1.0215255999997623,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[20000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.012595000000004575,
+                "max": 0.013756499999999505,
+                "mean": 0.01322600845070399,
+                "stddev": 0.00017535856632834587,
+                "rounds": 71,
+                "median": 0.013180900000008933,
+                "iqr": 0.0001277499999972065,
+                "q1": 0.013151000000000579,
+                "q3": 0.013278749999997785,
+                "iqr_outliers": 11,
+                "stddev_outliers": 18,
+                "outliers": "18;11",
+                "ld15iqr": 0.012971299999975372,
+                "hd15iqr": 0.013472500000005994,
+                "ops": 75.60860131968026,
+                "total": 0.9390465999999833,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[30000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01906790000001024,
+                "max": 0.020951300000007222,
+                "mean": 0.019456940909092616,
+                "stddev": 0.0003646727531530559,
+                "rounds": 44,
+                "median": 0.019357699999986266,
+                "iqr": 0.0003782000000143171,
+                "q1": 0.01922949999999446,
+                "q3": 0.019607700000008776,
+                "iqr_outliers": 1,
+                "stddev_outliers": 9,
+                "outliers": "9;1",
+                "ld15iqr": 0.01906790000001024,
+                "hd15iqr": 0.020951300000007222,
+                "ops": 51.39554078270752,
+                "total": 0.8561054000000752,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[40000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025486299999982975,
+                "max": 0.026909599999981992,
+                "mean": 0.02597107058823286,
+                "stddev": 0.0003509703022292657,
+                "rounds": 34,
+                "median": 0.02590059999999994,
+                "iqr": 0.00046699999998622843,
+                "q1": 0.025698099999999613,
+                "q3": 0.02616509999998584,
+                "iqr_outliers": 1,
+                "stddev_outliers": 10,
+                "outliers": "10;1",
+                "ld15iqr": 0.025486299999982975,
+                "hd15iqr": 0.026909599999981992,
+                "ops": 38.504381119085885,
+                "total": 0.8830163999999172,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[60000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03817559999998821,
+                "max": 0.04198669999999538,
+                "mean": 0.03920711999999753,
+                "stddev": 0.0008078243471404976,
+                "rounds": 25,
+                "median": 0.03902889999997683,
+                "iqr": 0.000537675000003901,
+                "q1": 0.038829950000000224,
+                "q3": 0.039367625000004125,
+                "iqr_outliers": 2,
+                "stddev_outliers": 4,
+                "outliers": "4;2",
+                "ld15iqr": 0.03817559999998821,
+                "hd15iqr": 0.040910099999990734,
+                "ops": 25.505571437026312,
+                "total": 0.9801779999999383,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[80000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0509224000000188,
+                "max": 0.05473299999999881,
+                "mean": 0.052159766666668536,
+                "stddev": 0.0010241039337160925,
+                "rounds": 18,
+                "median": 0.051866300000000365,
+                "iqr": 0.0011532999999985805,
+                "q1": 0.05141290000000254,
+                "q3": 0.05256620000000112,
+                "iqr_outliers": 1,
+                "stddev_outliers": 6,
+                "outliers": "6;1",
+                "ld15iqr": 0.0509224000000188,
+                "hd15iqr": 0.05473299999999881,
+                "ops": 19.1718649048142,
+                "total": 0.9388758000000337,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_creating[100000]",
+            "fullname": "src/test_for_plots.py::test_dheap_creating[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0638255000000072,
+                "max": 0.06750830000001429,
+                "mean": 0.06508654000000244,
+                "stddev": 0.0010426942373407003,
+                "rounds": 15,
+                "median": 0.0648691000000099,
+                "iqr": 0.0008377000000052703,
+                "q1": 0.06440302499999717,
+                "q3": 0.06524072500000244,
+                "iqr_outliers": 2,
+                "stddev_outliers": 3,
+                "outliers": "3;2",
+                "ld15iqr": 0.0638255000000072,
+                "hd15iqr": 0.06725730000002272,
+                "ops": 15.364159778657193,
+                "total": 0.9762981000000366,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[10000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00460069999999746,
+                "max": 0.007158599999996795,
+                "mean": 0.004922967032967549,
+                "stddev": 0.0003100671597375357,
+                "rounds": 182,
+                "median": 0.0048351499999910175,
+                "iqr": 0.0002612999999769272,
+                "q1": 0.004768900000016174,
+                "q3": 0.005030199999993101,
+                "iqr_outliers": 6,
+                "stddev_outliers": 14,
+                "outliers": "14;6",
+                "ld15iqr": 0.00460069999999746,
+                "hd15iqr": 0.005497300000001815,
+                "ops": 203.12953414136578,
+                "total": 0.8959800000000939,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[20000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.009489699999988943,
+                "max": 0.01050190000000839,
+                "mean": 0.009814034065936558,
+                "stddev": 0.00023551820888272746,
+                "rounds": 91,
+                "median": 0.009754999999984193,
+                "iqr": 0.0003501999999855343,
+                "q1": 0.00962040000000286,
+                "q3": 0.009970599999988394,
+                "iqr_outliers": 1,
+                "stddev_outliers": 26,
+                "outliers": "26;1",
+                "ld15iqr": 0.009489699999988943,
+                "hd15iqr": 0.01050190000000839,
+                "ops": 101.89489798806498,
+                "total": 0.8930771000002267,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[30000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.014217199999990271,
+                "max": 0.015799399999991692,
+                "mean": 0.014715897058824994,
+                "stddev": 0.00037612106971301155,
+                "rounds": 34,
+                "median": 0.014581599999985428,
+                "iqr": 0.00043750000000386535,
+                "q1": 0.01445560000001933,
+                "q3": 0.014893100000023196,
+                "iqr_outliers": 1,
+                "stddev_outliers": 8,
+                "outliers": "8;1",
+                "ld15iqr": 0.014217199999990271,
+                "hd15iqr": 0.015799399999991692,
+                "ops": 67.95372351428,
+                "total": 0.5003405000000498,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[40000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.019288200000005418,
+                "max": 0.0335328999999831,
+                "mean": 0.021648604545457705,
+                "stddev": 0.0029380436611543184,
+                "rounds": 44,
+                "median": 0.02091085000000703,
+                "iqr": 0.0026732500000008486,
+                "q1": 0.01988440000000935,
+                "q3": 0.0225576500000102,
+                "iqr_outliers": 2,
+                "stddev_outliers": 3,
+                "outliers": "3;2",
+                "ld15iqr": 0.019288200000005418,
+                "hd15iqr": 0.03247739999997634,
+                "ops": 46.19235377967211,
+                "total": 0.952538600000139,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[60000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.028579199999995808,
+                "max": 0.03971540000000573,
+                "mean": 0.030533296874997617,
+                "stddev": 0.002541332368290847,
+                "rounds": 32,
+                "median": 0.02961330000000828,
+                "iqr": 0.002076149999993504,
+                "q1": 0.029025150000009603,
+                "q3": 0.031101300000003107,
+                "iqr_outliers": 3,
+                "stddev_outliers": 3,
+                "outliers": "3;3",
+                "ld15iqr": 0.028579199999995808,
+                "hd15iqr": 0.03437440000001857,
+                "ops": 32.75113080955422,
+                "total": 0.9770654999999238,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[80000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03818019999999933,
+                "max": 0.0400446999999815,
+                "mean": 0.038886945833333186,
+                "stddev": 0.0005713022104247811,
+                "rounds": 24,
+                "median": 0.03862989999998945,
+                "iqr": 0.0009116999999889686,
+                "q1": 0.03845625000001007,
+                "q3": 0.03936794999999904,
+                "iqr_outliers": 0,
+                "stddev_outliers": 9,
+                "outliers": "9;0",
+                "ld15iqr": 0.03818019999999933,
+                "hd15iqr": 0.0400446999999815,
+                "ops": 25.715570574401298,
+                "total": 0.9332866999999965,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_creating[100000]",
+            "fullname": "src/test_for_plots.py::test_theap_creating[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.047868800000003375,
+                "max": 0.05078179999998156,
+                "mean": 0.04873474500000015,
+                "stddev": 0.0006813596078663309,
+                "rounds": 20,
+                "median": 0.04853975000000332,
+                "iqr": 0.0008610000000004447,
+                "q1": 0.048303599999997004,
+                "q3": 0.04916459999999745,
+                "iqr_outliers": 1,
+                "stddev_outliers": 4,
+                "outliers": "4;1",
+                "ld15iqr": 0.047868800000003375,
+                "hd15iqr": 0.05078179999998156,
+                "ops": 20.519241456993303,
+                "total": 0.9746949000000029,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[10000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.004089599999986149,
+                "max": 0.013479899999992995,
+                "mean": 0.004388247317072915,
+                "stddev": 0.0006979398919671923,
+                "rounds": 205,
+                "median": 0.004281700000007049,
+                "iqr": 0.00012862499999499732,
+                "q1": 0.004233125000006055,
+                "q3": 0.004361750000001052,
+                "iqr_outliers": 17,
+                "stddev_outliers": 5,
+                "outliers": "5;17",
+                "ld15iqr": 0.004089599999986149,
+                "hd15iqr": 0.004563400000023421,
+                "ops": 227.8814131804741,
+                "total": 0.8995906999999477,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[20000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.008367099999986749,
+                "max": 0.010801700000001802,
+                "mean": 0.008834524590164821,
+                "stddev": 0.0004530169443714741,
+                "rounds": 61,
+                "median": 0.00870530000000258,
+                "iqr": 0.00029287500002794786,
+                "q1": 0.00860502499999427,
+                "q3": 0.008897900000022219,
+                "iqr_outliers": 7,
+                "stddev_outliers": 8,
+                "outliers": "8;7",
+                "ld15iqr": 0.008367099999986749,
+                "hd15iqr": 0.0093392999999935,
+                "ops": 113.19228214195775,
+                "total": 0.5389060000000541,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[30000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.012480100000004768,
+                "max": 0.013446799999996983,
+                "mean": 0.012740148571429749,
+                "stddev": 0.0002014868160136289,
+                "rounds": 70,
+                "median": 0.012682949999998527,
+                "iqr": 0.000247400000006337,
+                "q1": 0.012609200000014198,
+                "q3": 0.012856600000020535,
+                "iqr_outliers": 2,
+                "stddev_outliers": 18,
+                "outliers": "18;2",
+                "ld15iqr": 0.012480100000004768,
+                "hd15iqr": 0.013387899999997899,
+                "ops": 78.49202027694848,
+                "total": 0.8918104000000824,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[40000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.016287400000010166,
+                "max": 0.017891899999995076,
+                "mean": 0.016799820408164357,
+                "stddev": 0.0003650487781211874,
+                "rounds": 49,
+                "median": 0.016751699999986158,
+                "iqr": 0.000472325000004048,
+                "q1": 0.016532949999998436,
+                "q3": 0.017005275000002484,
+                "iqr_outliers": 1,
+                "stddev_outliers": 17,
+                "outliers": "17;1",
+                "ld15iqr": 0.016287400000010166,
+                "hd15iqr": 0.017891899999995076,
+                "ops": 59.524445839553216,
+                "total": 0.8231912000000534,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[60000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.025176599999980454,
+                "max": 0.026280399999990323,
+                "mean": 0.02554922285714107,
+                "stddev": 0.00025317980367859326,
+                "rounds": 35,
+                "median": 0.025465900000000374,
+                "iqr": 0.0003609999999909519,
+                "q1": 0.02537927500000592,
+                "q3": 0.02574027499999687,
+                "iqr_outliers": 0,
+                "stddev_outliers": 10,
+                "outliers": "10;0",
+                "ld15iqr": 0.025176599999980454,
+                "hd15iqr": 0.026280399999990323,
+                "ops": 39.140133756377544,
+                "total": 0.8942227999999375,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[80000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03428629999999089,
+                "max": 0.03666959999998198,
+                "mean": 0.03496419259258969,
+                "stddev": 0.0005198778509828232,
+                "rounds": 27,
+                "median": 0.034846200000004046,
+                "iqr": 0.0006027750000257015,
+                "q1": 0.03465147499998267,
+                "q3": 0.03525425000000837,
+                "iqr_outliers": 1,
+                "stddev_outliers": 6,
+                "outliers": "6;1",
+                "ld15iqr": 0.03428629999999089,
+                "hd15iqr": 0.03666959999998198,
+                "ops": 28.600689043565673,
+                "total": 0.9440331999999216,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_creating[100000]",
+            "fullname": "src/test_for_plots.py::test_qheap_creating[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.043082499999997026,
+                "max": 0.05232789999999454,
+                "mean": 0.044551422727269335,
+                "stddev": 0.002415860131935309,
+                "rounds": 22,
+                "median": 0.043892499999998336,
+                "iqr": 0.0011673000000200773,
+                "q1": 0.04335629999999924,
+                "q3": 0.044523600000019314,
+                "iqr_outliers": 2,
+                "stddev_outliers": 2,
+                "outliers": "2;2",
+                "ld15iqr": 0.043082499999997026,
+                "hd15iqr": 0.051204899999987674,
+                "ops": 22.4459722896327,
+                "total": 0.9801312999999254,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[10000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.26600619999999253,
+                "max": 0.2791546999999923,
+                "mean": 0.2718938399999956,
+                "stddev": 0.006557158284113351,
+                "rounds": 5,
+                "median": 0.2686476000000084,
+                "iqr": 0.012306399999985729,
+                "q1": 0.2666146749999996,
+                "q3": 0.2789210749999853,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.26600619999999253,
+                "hd15iqr": 0.2791546999999923,
+                "ops": 3.6779060533332277,
+                "total": 1.3594691999999782,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[20000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.4648190999999997,
+                "max": 0.49406550000003335,
+                "mean": 0.48073633999999854,
+                "stddev": 0.011986459349333381,
+                "rounds": 5,
+                "median": 0.4779473999999482,
+                "iqr": 0.01900012499999093,
+                "q1": 0.472929150000013,
+                "q3": 0.49192927500000394,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.4648190999999997,
+                "hd15iqr": 0.49406550000003335,
+                "ops": 2.0801423083597195,
+                "total": 2.403681699999993,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[30000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.6659238999999957,
+                "max": 0.6828408000000081,
+                "mean": 0.6740298600000074,
+                "stddev": 0.007588799245140801,
+                "rounds": 5,
+                "median": 0.6768816000000015,
+                "iqr": 0.013264325000008625,
+                "q1": 0.666152050000008,
+                "q3": 0.6794163750000166,
+                "iqr_outliers": 0,
+                "stddev_outliers": 3,
+                "outliers": "3;0",
+                "ld15iqr": 0.6659238999999957,
+                "hd15iqr": 0.6828408000000081,
+                "ops": 1.4836137971691477,
+                "total": 3.370149300000037,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[40000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.8691644000000451,
+                "max": 0.8935440000000199,
+                "mean": 0.8828546000000074,
+                "stddev": 0.009816524721095189,
+                "rounds": 5,
+                "median": 0.8872645999999804,
+                "iqr": 0.014535700000024576,
+                "q1": 0.8746831999999927,
+                "q3": 0.8892189000000172,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.8691644000000451,
+                "hd15iqr": 0.8935440000000199,
+                "ops": 1.1326893465809564,
+                "total": 4.414273000000037,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[60000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.2675476000000003,
+                "max": 1.286736200000007,
+                "mean": 1.279777559999991,
+                "stddev": 0.00726128730618665,
+                "rounds": 5,
+                "median": 1.2810072999999988,
+                "iqr": 0.006703725000022587,
+                "q1": 1.2772823749999702,
+                "q3": 1.2839860999999928,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 1.2675476000000003,
+                "hd15iqr": 1.286736200000007,
+                "ops": 0.7813857901993586,
+                "total": 6.3988877999999545,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[80000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.6464487999999733,
+                "max": 1.6834174999999618,
+                "mean": 1.6587736999999834,
+                "stddev": 0.014649536012268738,
+                "rounds": 5,
+                "median": 1.6531496999999717,
+                "iqr": 0.01637114999999767,
+                "q1": 1.6496173999999968,
+                "q3": 1.6659885499999945,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 1.6464487999999733,
+                "hd15iqr": 1.6834174999999618,
+                "ops": 0.6028549885979082,
+                "total": 8.293868499999917,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_dheap_pop[100000]",
+            "fullname": "src/test_for_plots.py::test_dheap_pop[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.9720609999999965,
+                "max": 2.000517900000034,
+                "mean": 1.9843310000000087,
+                "stddev": 0.01050333796253691,
+                "rounds": 5,
+                "median": 1.9817039000000136,
+                "iqr": 0.011972275000005084,
+                "q1": 1.9783508000000012,
+                "q3": 1.9903230750000063,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.9720609999999965,
+                "hd15iqr": 2.000517900000034,
+                "ops": 0.5039481820321285,
+                "total": 9.921655000000044,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[10000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.22181490000002668,
+                "max": 0.2234922000000097,
+                "mean": 0.22288034000000606,
+                "stddev": 0.0006395166010273479,
+                "rounds": 5,
+                "median": 0.22299179999998842,
+                "iqr": 0.0006690750000046819,
+                "q1": 0.2226174000000043,
+                "q3": 0.22328647500000898,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.22181490000002668,
+                "hd15iqr": 0.2234922000000097,
+                "ops": 4.486712466429173,
+                "total": 1.1144017000000304,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[20000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.39533499999998867,
+                "max": 0.403612800000019,
+                "mean": 0.3982301800000073,
+                "stddev": 0.003178704750687696,
+                "rounds": 5,
+                "median": 0.3977995999999848,
+                "iqr": 0.002994874999998842,
+                "q1": 0.39627235000001804,
+                "q3": 0.3992672250000169,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.39533499999998867,
+                "hd15iqr": 0.403612800000019,
+                "ops": 2.511110534113667,
+                "total": 1.9911509000000365,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[30000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.5647116000000096,
+                "max": 0.575184199999967,
+                "mean": 0.5691702599999872,
+                "stddev": 0.00444074480892279,
+                "rounds": 5,
+                "median": 0.5668575999999916,
+                "iqr": 0.00701682500003642,
+                "q1": 0.5661402749999667,
+                "q3": 0.5731571000000031,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.5647116000000096,
+                "hd15iqr": 0.575184199999967,
+                "ops": 1.7569435198529568,
+                "total": 2.8458512999999357,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[40000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.7386720000000082,
+                "max": 0.8030042999999978,
+                "mean": 0.7584613399999967,
+                "stddev": 0.02540405939290003,
+                "rounds": 5,
+                "median": 0.7502661999999987,
+                "iqr": 0.017390625000047066,
+                "q1": 0.7466507999999692,
+                "q3": 0.7640414250000163,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.7386720000000082,
+                "hd15iqr": 0.8030042999999978,
+                "ops": 1.3184587628421567,
+                "total": 3.7923066999999833,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[60000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.0606020999999828,
+                "max": 1.1071997000000238,
+                "mean": 1.0827618599999937,
+                "stddev": 0.016702714523945394,
+                "rounds": 5,
+                "median": 1.0815174999999613,
+                "iqr": 0.017013549999973065,
+                "q1": 1.0741522000000145,
+                "q3": 1.0911657499999876,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.0606020999999828,
+                "hd15iqr": 1.1071997000000238,
+                "ops": 0.9235641159358955,
+                "total": 5.4138092999999685,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[80000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.418415600000003,
+                "max": 1.4946957000000225,
+                "mean": 1.452312780000011,
+                "stddev": 0.029166491333585547,
+                "rounds": 5,
+                "median": 1.447517199999993,
+                "iqr": 0.04100287499997535,
+                "q1": 1.4314882500000294,
+                "q3": 1.4724911250000048,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.418415600000003,
+                "hd15iqr": 1.4946957000000225,
+                "ops": 0.6885569098964979,
+                "total": 7.261563900000056,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_theap_pop[100000]",
+            "fullname": "src/test_for_plots.py::test_theap_pop[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.7093841999999881,
+                "max": 1.9104457000000252,
+                "mean": 1.7659404399999972,
+                "stddev": 0.08235866624876646,
+                "rounds": 5,
+                "median": 1.7448731000000066,
+                "iqr": 0.07069537500001388,
+                "q1": 1.7165057499999818,
+                "q3": 1.7872011249999957,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 1.7093841999999881,
+                "hd15iqr": 1.9104457000000252,
+                "ops": 0.5662705136306871,
+                "total": 8.829702199999986,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[10000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[10000]",
+            "params": {
+                "length": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.2168459000000098,
+                "max": 0.24424420000002556,
+                "mean": 0.22363846000001786,
+                "stddev": 0.011590206980598936,
+                "rounds": 5,
+                "median": 0.2186692000000221,
+                "iqr": 0.008622875000028785,
+                "q1": 0.21773720000000196,
+                "q3": 0.22636007500003075,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.2168459000000098,
+                "hd15iqr": 0.24424420000002556,
+                "ops": 4.471502799652261,
+                "total": 1.1181923000000893,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[20000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[20000]",
+            "params": {
+                "length": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.3898870000000443,
+                "max": 0.3959919000000127,
+                "mean": 0.3916921800000182,
+                "stddev": 0.0024648617947013707,
+                "rounds": 5,
+                "median": 0.3907709000000068,
+                "iqr": 0.002253050000007306,
+                "q1": 0.39028750000001367,
+                "q3": 0.39254055000002097,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.3898870000000443,
+                "hd15iqr": 0.3959919000000127,
+                "ops": 2.55302518421469,
+                "total": 1.958460900000091,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[30000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[30000]",
+            "params": {
+                "length": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.5684547999999836,
+                "max": 0.5804191999999944,
+                "mean": 0.5759643399999959,
+                "stddev": 0.00449439809074311,
+                "rounds": 5,
+                "median": 0.5772802000000183,
+                "iqr": 0.004207975000042552,
+                "q1": 0.5741305749999697,
+                "q3": 0.5783385500000122,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.5684547999999836,
+                "hd15iqr": 0.5804191999999944,
+                "ops": 1.7362185999223618,
+                "total": 2.8798216999999795,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[40000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[40000]",
+            "params": {
+                "length": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.7362168000000224,
+                "max": 0.7500119000000041,
+                "mean": 0.7414385799999991,
+                "stddev": 0.005368000712268629,
+                "rounds": 5,
+                "median": 0.7403774999999655,
+                "iqr": 0.006925399999957449,
+                "q1": 0.7375359000000259,
+                "q3": 0.7444612999999833,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.7362168000000224,
+                "hd15iqr": 0.7500119000000041,
+                "ops": 1.3487293849748163,
+                "total": 3.7071928999999955,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[60000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[60000]",
+            "params": {
+                "length": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.0791944999999714,
+                "max": 1.095804899999962,
+                "mean": 1.0850907799999845,
+                "stddev": 0.006346439107633219,
+                "rounds": 5,
+                "median": 1.0833815999999956,
+                "iqr": 0.006219525000005888,
+                "q1": 1.0814174999999864,
+                "q3": 1.0876370249999923,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 1.0791944999999714,
+                "hd15iqr": 1.095804899999962,
+                "ops": 0.9215818790756053,
+                "total": 5.425453899999923,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[80000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[80000]",
+            "params": {
+                "length": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.4003756999999837,
+                "max": 1.4201558999999975,
+                "mean": 1.4103304999999864,
+                "stddev": 0.008270545729284467,
+                "rounds": 5,
+                "median": 1.4112026999999898,
+                "iqr": 0.014248350000030996,
+                "q1": 1.4029115999999675,
+                "q3": 1.4171599499999985,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.4003756999999837,
+                "hd15iqr": 1.4201558999999975,
+                "ops": 0.7090536579901021,
+                "total": 7.051652499999932,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_qheap_pop[100000]",
+            "fullname": "src/test_for_plots.py::test_qheap_pop[100000]",
+            "params": {
+                "length": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.6872242000000028,
+                "max": 1.7805845000000318,
+                "mean": 1.7223137199999996,
+                "stddev": 0.03609240054911759,
+                "rounds": 5,
+                "median": 1.7101091999999767,
+                "iqr": 0.04387124999999514,
+                "q1": 1.6991594750000019,
+                "q3": 1.743030724999997,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 1.6872242000000028,
+                "hd15iqr": 1.7805845000000318,
+                "ops": 0.5806143145628545,
+                "total": 8.611568599999998,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2021-04-27T14:16:42.167482",
+    "version": "3.2.3"
+}

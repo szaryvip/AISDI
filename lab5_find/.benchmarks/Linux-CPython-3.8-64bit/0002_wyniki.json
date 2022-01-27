@@ -1,0 +1,1144 @@
+{
+    "machine_info": {
+        "node": "DESKTOP-388V9AO",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.8.5",
+        "python_version": "3.8.5",
+        "python_build": [
+            "default",
+            "Jul 28 2020 12:59:40"
+        ],
+        "release": "4.19.128-microsoft-standard",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "50e4bf54bf17dd5ce5c9b20f019e0af83054a44a",
+        "time": "2021-05-11T18:55:12+02:00",
+        "author_time": "2021-05-11T18:55:12+02:00",
+        "dirty": false,
+        "project": "aisdi_lab",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[100]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[100]",
+            "params": {
+                "n": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 4.5917058,
+                "max": 4.616933499999959,
+                "mean": 4.604270560000009,
+                "stddev": 0.010425162908691625,
+                "rounds": 5,
+                "median": 4.606582400000036,
+                "iqr": 0.01734309999999084,
+                "q1": 4.594707525000018,
+                "q3": 4.612050625000009,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 4.5917058,
+                "hd15iqr": 4.616933499999959,
+                "ops": 0.2171896692361185,
+                "total": 23.021352800000045,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[200]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[200]",
+            "params": {
+                "n": 200
+            },
+            "param": "200",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 9.233360100000027,
+                "max": 9.278157899999997,
+                "mean": 9.258701659999975,
+                "stddev": 0.022459123769039316,
+                "rounds": 5,
+                "median": 9.268541599999992,
+                "iqr": 0.04288222500001382,
+                "q1": 9.235041899999942,
+                "q3": 9.277924124999956,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 9.233360100000027,
+                "hd15iqr": 9.278157899999997,
+                "ops": 0.10800650422944968,
+                "total": 46.29350829999987,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[300]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[300]",
+            "params": {
+                "n": 300
+            },
+            "param": "300",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 14.096073600000068,
+                "max": 15.777101600000037,
+                "mean": 14.725334160000012,
+                "stddev": 0.68605296714901,
+                "rounds": 5,
+                "median": 14.749744999999962,
+                "iqr": 0.9815331500000468,
+                "q1": 14.119786799999986,
+                "q3": 15.101319950000033,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 14.096073600000068,
+                "hd15iqr": 15.777101600000037,
+                "ops": 0.06791017365951574,
+                "total": 73.62667080000006,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[400]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[400]",
+            "params": {
+                "n": 400
+            },
+            "param": "400",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 18.620617700000025,
+                "max": 18.686890399999925,
+                "mean": 18.652430179999964,
+                "stddev": 0.024947904741583884,
+                "rounds": 5,
+                "median": 18.645717499999932,
+                "iqr": 0.032887499999930014,
+                "q1": 18.637841750000007,
+                "q3": 18.670729249999937,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 18.620617700000025,
+                "hd15iqr": 18.686890399999925,
+                "ops": 0.053612317019808405,
+                "total": 93.26215089999982,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[500]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[500]",
+            "params": {
+                "n": 500
+            },
+            "param": "500",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 23.24953960000005,
+                "max": 26.53389279999999,
+                "mean": 24.25003443999999,
+                "stddev": 1.464403537493896,
+                "rounds": 5,
+                "median": 23.280754900000034,
+                "iqr": 2.06350342500005,
+                "q1": 23.260921674999935,
+                "q3": 25.324425099999985,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 23.24953960000005,
+                "hd15iqr": 26.53389279999999,
+                "ops": 0.04123705483694152,
+                "total": 121.25017219999995,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[600]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[600]",
+            "params": {
+                "n": 600
+            },
+            "param": "600",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 27.82687840000017,
+                "max": 28.23809559999995,
+                "mean": 27.935976599999982,
+                "stddev": 0.17141988151224782,
+                "rounds": 5,
+                "median": 27.858926599999904,
+                "iqr": 0.14652974999981438,
+                "q1": 27.843350275000063,
+                "q3": 27.989880024999877,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 27.82687840000017,
+                "hd15iqr": 28.23809559999995,
+                "ops": 0.035796135367610546,
+                "total": 139.6798829999999,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[700]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[700]",
+            "params": {
+                "n": 700
+            },
+            "param": "700",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 32.498223499999995,
+                "max": 32.72366750000015,
+                "mean": 32.588598000000005,
+                "stddev": 0.10048042935891759,
+                "rounds": 5,
+                "median": 32.53301479999982,
+                "iqr": 0.16671645000008084,
+                "q1": 32.514909724999995,
+                "q3": 32.681626175000076,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 32.498223499999995,
+                "hd15iqr": 32.72366750000015,
+                "ops": 0.030685579048230303,
+                "total": 162.94299,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[800]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[800]",
+            "params": {
+                "n": 800
+            },
+            "param": "800",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 37.1251678000001,
+                "max": 37.52371429999994,
+                "mean": 37.29863945999996,
+                "stddev": 0.15595037615507698,
+                "rounds": 5,
+                "median": 37.33026309999991,
+                "iqr": 0.21615279999997483,
+                "q1": 37.16580339999996,
+                "q3": 37.381956199999934,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 37.1251678000001,
+                "hd15iqr": 37.52371429999994,
+                "ops": 0.026810629408411165,
+                "total": 186.4931972999998,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[900]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[900]",
+            "params": {
+                "n": 900
+            },
+            "param": "900",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 41.89277629999992,
+                "max": 42.67942409999978,
+                "mean": 42.151659119999934,
+                "stddev": 0.32256817407048155,
+                "rounds": 5,
+                "median": 42.090411700000004,
+                "iqr": 0.42250382500014894,
+                "q1": 41.89615444999987,
+                "q3": 42.31865827500002,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 41.89277629999992,
+                "hd15iqr": 42.67942409999978,
+                "ops": 0.023723858582959657,
+                "total": 210.75829559999966,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kmp_n_words[1000]",
+            "fullname": "src/test_Tadka.py::test_find_kmp_n_words[1000]",
+            "params": {
+                "n": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 46.739104600000246,
+                "max": 46.94828559999996,
+                "mean": 46.872879340000054,
+                "stddev": 0.08367450512010727,
+                "rounds": 5,
+                "median": 46.88173009999991,
+                "iqr": 0.11153639999986353,
+                "q1": 46.82838422500015,
+                "q3": 46.93992062500001,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 46.739104600000246,
+                "hd15iqr": 46.94828559999996,
+                "ops": 0.021334298512927643,
+                "total": 234.36439670000027,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[100]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[100]",
+            "params": {
+                "n": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 10.390226200000143,
+                "max": 10.496845799999846,
+                "mean": 10.435612219999893,
+                "stddev": 0.04160175938800059,
+                "rounds": 5,
+                "median": 10.442705599999954,
+                "iqr": 0.05665347499996187,
+                "q1": 10.40066357499984,
+                "q3": 10.457317049999801,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 10.390226200000143,
+                "hd15iqr": 10.496845799999846,
+                "ops": 0.0958257147657802,
+                "total": 52.17806109999947,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[200]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[200]",
+            "params": {
+                "n": 200
+            },
+            "param": "200",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 19.78393700000015,
+                "max": 20.58303550000028,
+                "mean": 20.00177846000006,
+                "stddev": 0.3283314748271815,
+                "rounds": 5,
+                "median": 19.875389299999824,
+                "iqr": 0.24510590000033972,
+                "q1": 19.8357675499999,
+                "q3": 20.08087345000024,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 19.78393700000015,
+                "hd15iqr": 20.58303550000028,
+                "ops": 0.04999555424532969,
+                "total": 100.0088923000003,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[300]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[300]",
+            "params": {
+                "n": 300
+            },
+            "param": "300",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 30.415311199999906,
+                "max": 31.57020059999968,
+                "mean": 30.73935821999994,
+                "stddev": 0.4989774543044312,
+                "rounds": 5,
+                "median": 30.43687200000022,
+                "iqr": 0.6037927749997607,
+                "q1": 30.424195325000028,
+                "q3": 31.02798809999979,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 30.415311199999906,
+                "hd15iqr": 31.57020059999968,
+                "ops": 0.032531583543255964,
+                "total": 153.6967910999997,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[400]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[400]",
+            "params": {
+                "n": 400
+            },
+            "param": "400",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 41.32701279999992,
+                "max": 43.8822210999997,
+                "mean": 42.425942139999826,
+                "stddev": 0.9753849600146796,
+                "rounds": 5,
+                "median": 42.51646609999989,
+                "iqr": 1.2827714999998534,
+                "q1": 41.66127249999988,
+                "q3": 42.944043999999735,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 41.32701279999992,
+                "hd15iqr": 43.8822210999997,
+                "ops": 0.02357048422637584,
+                "total": 212.12971069999912,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[500]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[500]",
+            "params": {
+                "n": 500
+            },
+            "param": "500",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 51.185897699999714,
+                "max": 51.6558857,
+                "mean": 51.421032579999974,
+                "stddev": 0.1700912166151546,
+                "rounds": 5,
+                "median": 51.408557199999905,
+                "iqr": 0.192816424999819,
+                "q1": 51.32937307500015,
+                "q3": 51.52218949999997,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 51.185897699999714,
+                "hd15iqr": 51.6558857,
+                "ops": 0.019447295198598294,
+                "total": 257.10516289999987,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[600]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[600]",
+            "params": {
+                "n": 600
+            },
+            "param": "600",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 60.302028800000244,
+                "max": 62.483251899999686,
+                "mean": 60.871709959999954,
+                "stddev": 0.9247109145415621,
+                "rounds": 5,
+                "median": 60.42199669999991,
+                "iqr": 0.9145552250000719,
+                "q1": 60.32260962499993,
+                "q3": 61.23716485,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 60.302028800000244,
+                "hd15iqr": 62.483251899999686,
+                "ops": 0.016427992587313884,
+                "total": 304.35854979999976,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[700]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[700]",
+            "params": {
+                "n": 700
+            },
+            "param": "700",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 70.82541629999969,
+                "max": 71.89604589999999,
+                "mean": 71.16720211999991,
+                "stddev": 0.42474349442962556,
+                "rounds": 5,
+                "median": 71.06773869999961,
+                "iqr": 0.4262218749998965,
+                "q1": 70.89462547500011,
+                "q3": 71.32084735000001,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 70.82541629999969,
+                "hd15iqr": 71.89604589999999,
+                "ops": 0.014051416526307038,
+                "total": 355.83601059999955,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[800]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[800]",
+            "params": {
+                "n": 800
+            },
+            "param": "800",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 80.7454617000003,
+                "max": 81.22031719999995,
+                "mean": 80.95991768000003,
+                "stddev": 0.17583662229516975,
+                "rounds": 5,
+                "median": 80.9547763999999,
+                "iqr": 0.2194260500002656,
+                "q1": 80.8406467499999,
+                "q3": 81.06007280000017,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 80.7454617000003,
+                "hd15iqr": 81.22031719999995,
+                "ops": 0.012351791215408256,
+                "total": 404.7995884000002,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[900]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[900]",
+            "params": {
+                "n": 900
+            },
+            "param": "900",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 90.63359579999997,
+                "max": 91.5418910999997,
+                "mean": 90.92477889999991,
+                "stddev": 0.3686378266195013,
+                "rounds": 5,
+                "median": 90.73836630000005,
+                "iqr": 0.4211434499995903,
+                "q1": 90.7026296250001,
+                "q3": 91.12377307499969,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 90.63359579999997,
+                "hd15iqr": 91.5418910999997,
+                "ops": 0.010998102080619973,
+                "total": 454.62389449999955,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_kr_n_words[1000]",
+            "fullname": "src/test_Tadka.py::test_find_kr_n_words[1000]",
+            "params": {
+                "n": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 100.67855839999993,
+                "max": 101.57076930000039,
+                "mean": 101.05894720000015,
+                "stddev": 0.40016049129271153,
+                "rounds": 5,
+                "median": 100.82537400000001,
+                "iqr": 0.6655952500007061,
+                "q1": 100.78088119999984,
+                "q3": 101.44647645000055,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 100.67855839999993,
+                "hd15iqr": 101.57076930000039,
+                "ops": 0.009895214898894163,
+                "total": 505.29473600000074,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[100]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[100]",
+            "params": {
+                "n": 100
+            },
+            "param": "100",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.2909385000002658,
+                "max": 3.3377139999993233,
+                "mean": 3.3185791800000515,
+                "stddev": 0.017857636460929197,
+                "rounds": 5,
+                "median": 3.3212343000004694,
+                "iqr": 0.023374000000330852,
+                "q1": 3.308022974999858,
+                "q3": 3.331396975000189,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 3.2909385000002658,
+                "hd15iqr": 3.3377139999993233,
+                "ops": 0.30133377742699646,
+                "total": 16.592895900000258,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[200]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[200]",
+            "params": {
+                "n": 200
+            },
+            "param": "200",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 7.123283899999478,
+                "max": 7.22134189999997,
+                "mean": 7.154940739999802,
+                "stddev": 0.040480707326794686,
+                "rounds": 5,
+                "median": 7.140514400000029,
+                "iqr": 0.053151374999742984,
+                "q1": 7.125088849999884,
+                "q3": 7.178240224999627,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 7.123283899999478,
+                "hd15iqr": 7.22134189999997,
+                "ops": 0.13976356147989952,
+                "total": 35.77470369999901,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[300]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[300]",
+            "params": {
+                "n": 300
+            },
+            "param": "300",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 10.816198900000018,
+                "max": 10.918550200000027,
+                "mean": 10.875324120000005,
+                "stddev": 0.038988189765065885,
+                "rounds": 5,
+                "median": 10.878437499999563,
+                "iqr": 0.052095824999923934,
+                "q1": 10.8520834750002,
+                "q3": 10.904179300000123,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 10.816198900000018,
+                "hd15iqr": 10.918550200000027,
+                "ops": 0.09195128245980035,
+                "total": 54.376620600000024,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[400]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[400]",
+            "params": {
+                "n": 400
+            },
+            "param": "400",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 14.512994800000342,
+                "max": 14.581919499999458,
+                "mean": 14.555042420000063,
+                "stddev": 0.029990916641704286,
+                "rounds": 5,
+                "median": 14.563512800000353,
+                "iqr": 0.050993624999136955,
+                "q1": 14.530161850000468,
+                "q3": 14.581155474999605,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 14.512994800000342,
+                "hd15iqr": 14.581919499999458,
+                "ops": 0.06870471216393718,
+                "total": 72.77521210000032,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[500]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[500]",
+            "params": {
+                "n": 500
+            },
+            "param": "500",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 18.044658200000413,
+                "max": 18.597823300000528,
+                "mean": 18.190156580000075,
+                "stddev": 0.23165815396495912,
+                "rounds": 5,
+                "median": 18.095513700000083,
+                "iqr": 0.20792749999986881,
+                "q1": 18.05614182499994,
+                "q3": 18.26406932499981,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 18.044658200000413,
+                "hd15iqr": 18.597823300000528,
+                "ops": 0.054974787908065155,
+                "total": 90.95078290000038,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[600]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[600]",
+            "params": {
+                "n": 600
+            },
+            "param": "600",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 21.67536099999961,
+                "max": 21.870868699999846,
+                "mean": 21.761895379999807,
+                "stddev": 0.07034694673759546,
+                "rounds": 5,
+                "median": 21.754718400000456,
+                "iqr": 0.06609152500004711,
+                "q1": 21.725931249999576,
+                "q3": 21.792022774999623,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 21.67536099999961,
+                "hd15iqr": 21.870868699999846,
+                "ops": 0.045951879766826124,
+                "total": 108.80947689999903,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[700]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[700]",
+            "params": {
+                "n": 700
+            },
+            "param": "700",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 25.184809500000483,
+                "max": 27.01468879999993,
+                "mean": 25.890242260000196,
+                "stddev": 0.8345181654954777,
+                "rounds": 5,
+                "median": 25.365339900000436,
+                "iqr": 1.3714476500003911,
+                "q1": 25.296603374999904,
+                "q3": 26.668051025000295,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 25.184809500000483,
+                "hd15iqr": 27.01468879999993,
+                "ops": 0.03862459029767273,
+                "total": 129.45121130000098,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[800]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[800]",
+            "params": {
+                "n": 800
+            },
+            "param": "800",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 28.871391900000162,
+                "max": 33.73415860000023,
+                "mean": 30.329528940000092,
+                "stddev": 2.0580883525881144,
+                "rounds": 5,
+                "median": 29.144418200000473,
+                "iqr": 2.5280439249997926,
+                "q1": 29.02330035,
+                "q3": 31.551344274999792,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 28.871391900000162,
+                "hd15iqr": 33.73415860000023,
+                "ops": 0.03297116819645524,
+                "total": 151.64764470000046,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[900]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[900]",
+            "params": {
+                "n": 900
+            },
+            "param": "900",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 34.28265190000002,
+                "max": 34.74003899999934,
+                "mean": 34.47877235999986,
+                "stddev": 0.2040912785830183,
+                "rounds": 5,
+                "median": 34.419237399999474,
+                "iqr": 0.3660817999993924,
+                "q1": 34.30177052500039,
+                "q3": 34.667852324999785,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 34.28265190000002,
+                "hd15iqr": 34.74003899999934,
+                "ops": 0.029003352832832827,
+                "total": 172.39386179999929,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_find_n_n_words[1000]",
+            "fullname": "src/test_Tadka.py::test_find_n_n_words[1000]",
+            "params": {
+                "n": 1000
+            },
+            "param": "1000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 38.079494599999634,
+                "max": 40.94387639999968,
+                "mean": 39.329949139999734,
+                "stddev": 1.1531983555556602,
+                "rounds": 5,
+                "median": 39.08455599999979,
+                "iqr": 1.8203434750002998,
+                "q1": 38.4209316499996,
+                "q3": 40.2412751249999,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 38.079494599999634,
+                "hd15iqr": 40.94387639999968,
+                "ops": 0.025425916429242724,
+                "total": 196.64974569999868,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2021-05-11T19:05:41.563822",
+    "version": "3.2.3"
+}
