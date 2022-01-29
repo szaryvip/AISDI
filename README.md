@@ -7,4 +7,5 @@ Projects from AISDI (Algorithms and Data Structures) during second semester of C
 4. [Heaps](https://github.com/szaryvip/AISDI/tree/master/lab4_heaps)
 5. [Pattern search](https://github.com/szaryvip/AISDI/tree/master/lab5_find)
 6. [Dijkstra's algorithm](https://github.com/szaryvip/AISDI/tree/master/lab6_graph)
-7. 
+
+Projects done with [LJaremek](https://github.com/LJaremek)
